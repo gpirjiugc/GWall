@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Image_Shower">
+<ImageView
+    android:scaleType="centerCrop"
+    android:layout_width="match_parent"
+    android:id="@+id/image_shower_image"
+  android:src="@drawable/ic_launcher_background"
+    android:layout_height="match_parent">
+
+</ImageView>
+    <LinearLayout
+        android:layout_width="200dp"
+
+        android:backgroundTint="@color/white"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+    android:id="@+id/linear_back_set_as"
+        android:background="@drawable/background_assets"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="150dp">
+        <ImageView
+            android:layout_width="100sp"
+            android:src="@drawable/ic_baseline_home_24"
+            android:tint="@color/black"
+            android:padding="15dp"
+            android:id="@+id/set_as_home"
+            android:layout_height="match_parent"
+            />
+
+        <ImageView
+            android:layout_width="100sp"
+            android:src="@drawable/ic_baseline_lock_24"
+            android:tint="@color/black"
+            android:id="@+id/set_as_lock"
+            android:padding="15dp"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="300dp"
+
+    android:backgroundTint="@color/white"
+    android:layout_height="60dp"
+
+    android:background="@drawable/background_assets"
+    android:layout_gravity="center|bottom"
+   android:layout_marginBottom="50dp">
+    <ImageView
+        android:layout_width="100sp"
+        android:src="@drawable/download"
+        android:padding="15dp"
+        android:id="@+id/image_download"
+        android:layout_height="match_parent"
+/>
+    <ImageView
+        android:layout_width="100sp"
+        android:src="@drawable/faorite"
+        android:padding="15dp"
+        android:id="@+id/image_add_to_like"
+        android:layout_height="match_parent"
+        />
+    <ImageView
+        android:layout_width="100sp"
+        android:src="@drawable/setaswall"
+        android:padding="15dp"
+        android:id="@+id/setaswalll"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
+</FrameLayout>
